@@ -1,0 +1,103 @@
+======================================================================
+CYBERSECURITY ATTACK DATASET REPORT
+======================================================================
+
+Total attacks: 14133
+
+----------------------------------------------------------------------
+TOP ATTACK TYPES
+----------------------------------------------------------------------
+Hardware Interface Exploitation: 161
+Wireless Attacks (Advanced): 95
+Dependency Confusion: 91
+Fuzzer Configuration: 75
+Malicious Libraries: 74
+Malicious Library: 71
+Privilege Escalation: 61
+Misuse of Legitimate Tools: 55
+Removable Media Attack: 55
+Data Exfiltration: 52
+
+----------------------------------------------------------------------
+TOP CATEGORIES
+----------------------------------------------------------------------
+Insider Threat: 569
+Physical / Hardware Attacks: 548
+Quantum Cryptography & Post-Quantum Threats: 542
+Wireless Attacks (Advanced): 535
+Malware & Threat: 528
+Satellite & Space Infrastructure Security: 515
+DFIR: 510
+Blockchain / Web3: 503
+Red Team: 503
+Blue Team: 503
+
+----------------------------------------------------------------------
+TOP TARGET TYPES
+----------------------------------------------------------------------
+Windows: 291
+Workstation: 109
+Satellite: 78
+Endpoint: 50
+Android App: 46
+Windows Host: 42
+Wireless Networks: 36
+GitHub Actions: 36
+Infotainment System: 35
+Windows Workstation: 34
+
+----------------------------------------------------------------------
+TOP MITRE TECHNIQUES
+----------------------------------------------------------------------
+T1203: 343
+T1552.001: 224
+T1195.002: 141
+T1499: 120
+T1189: 113
+T1499 – Endpoint Denial of Service: 92
+T1609: 91
+T1204.002: 83
+T1190 – Exploit Public-Facing Application: 77
+T1203 – Exploitation for Privilege Escalation: 73
+
+----------------------------------------------------------------------
+TOP IMPACTS
+----------------------------------------------------------------------
+Credential theft: 37
+Credential Theft: 30
+Remote Code Execution: 26
+Remote code execution: 20
+T0856: 18
+Account compromise: 14
+Full system compromise: 14
+T0884: 12
+Code Execution: 12
+Unauthorized access: 11
+
+----------------------------------------------------------------------
+TOP DETECTION METHODS
+----------------------------------------------------------------------
+Registry + Prefetch + Memory: 9
+GitHub Secret Scanning: 7
+Fuzzer logs, crash reports: 6
+Timing anomaly detection, redundant clock comparisons: 5
+Network anomaly detection: 4
+Unknown: 3
+File integrity monitoring: 3
+File access monitoring: 3
+JA3/SNI/TLS fingerprinting and long session detection: 3
+Monitor excessive or anomalous DNS TXT traffic: 3
+
+----------------------------------------------------------------------
+COMMON ATTACK KEYWORDS
+----------------------------------------------------------------------
+SQL: 71
+Phishing: 274
+Malware: 364
+Ransomware: 78
+DDoS: 16
+XSS: 159
+
+======================================================================
+END OF REPORT
+======================================================================
