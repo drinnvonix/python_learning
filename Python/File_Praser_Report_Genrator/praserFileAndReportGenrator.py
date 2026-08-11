@@ -289,9 +289,7 @@ class ReportGenerator:
         # Build report
         report = []
 
-        report.append("=" * 70)
         report.append("CYBERSECURITY ATTACK DATASET REPORT")
-        report.append("=" * 70)
 
         report.append("")
         report.append(f"Total attacks: {total}")
@@ -299,9 +297,7 @@ class ReportGenerator:
         # Attack Types
 
         report.append("")
-        report.append("-" * 70)
         report.append("TOP ATTACK TYPES")
-        report.append("-" * 70)
 
         for value, count in attack_types:
             report.append(
@@ -311,9 +307,7 @@ class ReportGenerator:
         # Categories
 
         report.append("")
-        report.append("-" * 70)
         report.append("TOP CATEGORIES")
-        report.append("-" * 70)
 
         for value, count in categories:
             report.append(
@@ -323,9 +317,7 @@ class ReportGenerator:
         # Target Types
 
         report.append("")
-        report.append("-" * 70)
         report.append("TOP TARGET TYPES")
-        report.append("-" * 70)
 
         for value, count in targets:
             report.append(
@@ -335,9 +327,7 @@ class ReportGenerator:
         # MITRE Techniques
 
         report.append("")
-        report.append("-" * 70)
         report.append("TOP MITRE TECHNIQUES")
-        report.append("-" * 70)
 
         for value, count in mitre:
             report.append(
@@ -347,9 +337,7 @@ class ReportGenerator:
         # Impacts
 
         report.append("")
-        report.append("-" * 70)
         report.append("TOP IMPACTS")
-        report.append("-" * 70)
 
         for value, count in impacts:
             report.append(
@@ -359,9 +347,7 @@ class ReportGenerator:
         # Detection Methods
 
         report.append("")
-        report.append("-" * 70)
         report.append("TOP DETECTION METHODS")
-        report.append("-" * 70)
 
         for value, count in detection_methods:
             report.append(
@@ -371,9 +357,7 @@ class ReportGenerator:
         # Keyword analysis
 
         report.append("")
-        report.append("-" * 70)
         report.append("COMMON ATTACK KEYWORDS")
-        report.append("-" * 70)
 
         keywords = [
             "SQL",
@@ -393,9 +377,7 @@ class ReportGenerator:
             )
 
         report.append("")
-        report.append("=" * 70)
         report.append("END OF REPORT")
-        report.append("=" * 70)
 
         return "\n".join(report)
 
